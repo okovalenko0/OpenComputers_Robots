@@ -17,6 +17,8 @@ local list = {
  
 function Start()
   m.open(6791)
+  m.setWakeMessage('')
+  m.setStrength(50000)
   CheckPort()
 end
  
